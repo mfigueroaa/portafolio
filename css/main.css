@@ -99,7 +99,8 @@ textarea {
    ========================================================================== */
 body{
   font-family: 'Open Sans', sans-serif;
-
+   color: #fff;
+background: black;
 }
 
 
@@ -108,22 +109,43 @@ body{
   font-weight: bolder;
   margin-top: 10px;
 }
+
+#contacto{
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-align: center;
+}
 #menu{
   list-style-type: none;
   text-align: right;
   margin-top: 20px;
-  font-size: 25px;
-  font-kerning: 5px; 
+  font-size: 20px;
 }
+
+
 #menu li{
   display: inline-block;
+  margin-left: 35px;
+}
 
+#datos{
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+  font-size: px;
 }
 
 #nombres {
   list-style-type: none;
   text-align: left;
   font-size: 50px;
+  cursor: pointer;
+}
+#nombres:hover{
+  color: gray;
+  font-weight: 700;
+  transition: 0.7s;
 }
 
 #nombres li{
@@ -134,9 +156,16 @@ body{
   font-size: 15px;
   margin-top: 5px;
 }
-#encabezado{
+#encabezado {
   background-color: black;
   height:  80px;
+  color: #fff;
+  cursor: pointer;
+}
+#menu  li:hover{
+  color: red;
+  font-weight: 700;
+  transition: 0.7s;
 }
 
 #pie{
@@ -145,15 +174,70 @@ body{
 }
 
 #anBoca{
-  text-align:   right;
+  margin-left:230px;
+}
+
+#flecha1{
+  transform: rotate(-180deg);
 }
 
 #logo{
-  font-weight: bold;
+  font-weight: medium;
   font-color: #ffff;
 font-size: 40px;
 margin-top:15px;
+cursor: default;
 
+}
+
+
+#ananimacion{
+  z-index: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+#flecha1{
+  z-index: 0;
+  width: 35%;
+  max-width: 90%;
+}
+
+#flecha2{
+  z-index: 0;
+  width: 60%;
+  max-width: 100%;
+}
+
+#textos{
+  margin-top: 2px;
+  z-index: 10;
+}
+
+.contacto{
+  z-index: 10;
+  position: absolute;
+  top: 40%;
+  left: 37%;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+#ilustracion{
+  margin-left: : 0;
+}
+
+#enredo{
+  padding: 100px;
 }
 
 /* ==========================================================================
