@@ -156,6 +156,11 @@ background: black;
   font-size: 15px;
   margin-top: 5px;
 }
+
+#info{
+  margin-top: 50px;
+  margin-left: 130px;
+}
 #encabezado {
   background-color: black;
   height:  80px;
@@ -234,6 +239,11 @@ a:hover{
 
 #ilustracion{
   margin-left: : 0;
+}
+
+#ilustracion img{
+  width: 100%;
+  max-width: 100%;
 }
 
 #enredo{
